@@ -1,0 +1,28 @@
+#desktop calculator
+echo " enter two  different numbers "
+read a b  
+echo "choose your  options :1) addition\n2) subtraction\n3)multiplication\n4)division\n"
+read op
+case $op in
+   1)
+    res=`expr $a + $b`
+    echo "result addition =$res"
+    ;;
+    2)
+     res=`expr $a - $b`
+     echo "result subtraction=$res"
+     ;;
+     3)
+       res=`expr $a /* $b`
+     echo "result multiplication=$res"
+     ;;
+     4)
+       res=`expr $a / $b`
+     echo "result division=$res"
+     ;;
+     *)
+     echo "wrong option"
+      ;;
+esac
+      
+     

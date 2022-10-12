@@ -1,0 +1,9 @@
+echo "enter two different numbers"
+read a b
+if [ $a -ge $b ]
+then 
+echo " $b is less than $a"
+else 
+echo "$a is less then $b"
+fi
+

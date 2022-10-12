@@ -1,0 +1,12 @@
+#check two numbers equal are not
+echo "enter first number"
+read n1
+echo "enter second number"
+read n2
+if  [ $n1 -eq $n2 ]
+then
+echo "$n1 and $n2 are equal "
+else
+echo "$n1  and $n2 are not equal"
+fi
+
